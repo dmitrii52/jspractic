@@ -18,7 +18,6 @@ switch(typeof (x)) {
 
 // задача 1
 let a = +prompt("введите число", "");
-let num = a;
 if (typeof a !== 'number' || isNaN (a)){
 	console.log ('упс, кажется, вы ошиблись');
   }	if (num % 2){
