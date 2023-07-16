@@ -12,7 +12,7 @@
  } else{
 	alert('слишком большое число');
   } 
- if(typeof(isPrime(num))  === "true" ){
+ if((isPrime(num)) == true ){
 	console.log(num + " простое число ");
  } else {
 	console.log(num + " составное число ");
