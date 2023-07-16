@@ -21,23 +21,35 @@
 
  /*задача 3 модуль 11*/
   
- function add(num1, num2) { 
-    return num1 + num2;
-};
+//  function add(num1, num2) { 
+//     return num1 + num2;
+// };
 
-function diff(num1, num2) { 
-    return num1 - num2;
-};
+// function diff(num1, num2) { 
+//     return num1 - num2;
+// };
 
-function calc(num1, num2, add) { // add это функция высшего порядка, которую можем использовать как аргумент.
-	return add (num1, num2);
-};
+// function calc(num1, num2, add) { // add это функция высшего порядка, которую можем использовать как аргумент.
+// 	return add (num1, num2);
+// };
 
-console.log (add(5, 6));
-console.log (diff(50, 6));
-console.log(calc(5, 6, add));
-console.log(calc(50, 6, diff));
+// console.log (add(5, 6));
+// console.log (diff(50, 6));
+// console.log(calc(5, 6, add));
+// console.log(calc(50, 6, diff));
 
 /*=====================================================*/
 /*задача 4*/
- 
+
+// function delay(number1, number2) {
+// 	console.log("первое число:" + number1);
+// 	console.log("второе число: " + number2);
+// 	let stopInterval = setInterval(() => {
+// 		number1++;
+// 		if(number1 === number2){
+// 		clearInterval(stopInterval)
+// 		}
+// 		console.log(number1)
+// 	},1000);
+// }
+// delay(1, 10);
