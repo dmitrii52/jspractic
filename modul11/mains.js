@@ -1,3 +1,25 @@
+
+/*задача 1*/
+// let arr = [0,1,2,3, true, null];
+// let even =0;
+// let add = 0;
+// let zero = 0;
+// arr.forEach((item) =>{
+// 	if (typeof item === "number" && !isNaN(item)) {
+// 		if (item === 0) {
+// 			zero++
+// 		} else if (item % 2 === 0) {
+// 			even++;
+// 		} else {
+// 			add++;
+// 		}
+// 	}
+// })
+// console.log("четных  значений: " + even);
+// console.log("нечетных  значений: " + add);
+// console.log("нулевых  значений: " + zero);
+
+/*задача 2*/
 //  let num1 = +prompt("введите число до 1000", "");
 //  if (num1 < 1000){ 
 // 	function isPrime(num) {
@@ -53,3 +75,14 @@
 // 	},1000);
 // }
 // delay(1, 10);
+/*задача 5*/
+
+// function square (x, n) {
+// 	return Math.pow(x, n);
+// }
+// console.log(square(3, 2));
+
+
+// /*стрелочная функция*/
+// let square1 = (x, n) => Math.pow(x, n);
+// console.log(square1(5, 2));
